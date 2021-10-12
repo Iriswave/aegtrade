@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles-updated.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <title>Contact - AEG Trade</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <a href="index.html">
+                <img class="logo logo-1" src="assets/Group 3(2).png" alt="AEG Trade">
+            </a>
+            <nav class="navbar">
+                <div class="navbar-text">
+                    <i class="fa-solid fa-bars"></i>
+                    <p>Menu</p>
+                </div>
+                <ul class="navbar-dropdown">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="procedure.html">Program Procedures</a></li>
+                    <li><a href="proceeds.html">Trade Proceeds</a></li>
+                    <li><a href="background.html">Historical Background</a></li>
+                    <li><a href="legal.html">Non Solicitation Disclaimers</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="section-1 dark">
+            <div class="section-1-container text-container text-left">
+                <h1 style="display: inline-block">Contact Us</h1>
+                <p>We would be more than happy to talk to you. Please complete the form below and we'll get back with you as soon as possible. Thank you.</p>
+            </div>
+            
+        </section>
+        <section class="form-section dark">
+            <div class="form-container text-container text-left">
+                <form action="https://formspree.io/f/mjvjzqvz" method="POST" id="my-form">
+                    <div class="form-group">
+                        <label for="firstname">First Name</label><br>
+                        <input type="text" id="firstname" name="firstName" placeholder="required" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="lastname">Last Name</label><br>
+                        <input type="text" id="lastname" name="lastName" placeholder="required" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label><br>
+                        <input type="text" id="email" name="eMail" placeholder="required" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label><br>
+                        <input type="text" id="subject" name="subject" placeholder="required" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label><br>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="required" required></textarea>
+                    </div>
+                    <br>
+                    <button class="submit-button" type="submit">Submit</button>
+                </form>
+                <br>
+                <div id="status"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-grid">
+            <div class="column1">
+                <a href="index.html">
+                    <img class="logo-2" src="assets/Group 3(2).png" alt="AEG Trade Logo">
+                </a>
+            </div>
+            <div class="column2">
+                <ul class="footer-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="procedure.html">Proceedures</a></li>
+                    <li><a href="proceeds.html">Proceeds</a></li>
+                </ul>
+            </div>
+            <div class="column3">
+                <ul class="footer-list">
+                    <li><a href="background.html">Background</a></li>
+                    <li><a href="legal.html">Non Solicitation Disclaimers</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p>Developed by Juan Cruz Ciacci. | Copyright &copy; 2021 AEG Trade Inc. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
